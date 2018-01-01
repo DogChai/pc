@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>配件清单</title>
+	<style type="text/css">
+	body{
+		font-family:"宋体";
+	}
+
+	td{
+		border:solid #2452CC; 
+		border-width:0px 1px 1px 0px; 
+		padding:10px 0px;
+	}
+	table{
+		border:1px solid #2452CC;
+		text-align:center;
+	}
+	th{
+		border-bottom:1px solid #2452CC;
+		border-right:1px solid #2452CC;
+	}
+
+	input{
+		border: none;
+		width:60px;
+		height:30px;
+		margin-left:10px;
+		font-size:14px;
+	}
+
+	th ,td{
+		padding:6px 5px ;
+	}
+
+	.right{
+		border-right:none;
+	}
+
+	.bottom{
+		border-bottom:none;
+	}
+
+	.text-right{
+		text-align:right;
+		border-right:none;
+	}
+
+	.text-right input{
+		width:70px;
+		height:30px;
+		font-size:20px;
+		font-weight:bold;
+	}
+
+	a{
+		text-decoration:none;
+		color:#06698A;
+	}
+	
+	a:link ,a:visited{
+		color:#0A83AB;
+	}
+
+	a:hover{
+		color:#4324E6;
+	}
+
+	a:active{
+		color:#B625E7;
+	}
+
+	button{
+		width:60px;
+		height:30px;
+		border:1px solid #959EC7;
+		border-radius:3px;
+		background-color:rgba(0, 34, 255, 0.37);
+	}
+
+	.sm-input {
+		width: 45px;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	table {
+		margin: 80px auto;
+	}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>配件</th>
+			<th>型号</th>
+			<th>平台</th>
+			<th>价格</th>
+			<th class="right">数量</th>
+		</tr>
+<!-- 		<tr>
+			<td>显示器</td>
+			<td><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.46.S3B2Ya&id=525303821326&ns=1&abbucket=7&skuId=3145225729242" target="_blank">LG 2k显示器29英寸29UM68-P</a></td>
+			<td>天猫</td>
+			<td><input type="text" class="values" name="" value="1949"></td>
+			<td class="right"><input type="text" value="1" class="sm-input"></td>
+		</tr> -->
+		<tr>
+			<td>电源</td>
+			<td><a href="https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.5bdb6c3bYCTaH3&id=43644753006" target="_blank">静音航嘉MVP600</a></td>
+			<td>淘宝</td>
+			<td><input type="text" class="values" name="" value="369" ></td>
+			<td class="right"><input type="text" value="1" class="sm-input"></td>
+		</tr>
+		<tr>
+			<td>显卡</td>
+			<td><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.100.2f2bc1f4xOA6pL&id=535855770504&ns=1&abbucket=15" target="_blank">微星1060</a></td>
+			<td>淘宝</td>
+			<td><input type="text" class="values" name="" value="2439"></td>
+			<td class="right"><input type="text" value="1" class="sm-input"></td>
+		</tr>
+		<tr>
+			<td>CPU&主板</td>
+			<td><a href="https://item.taobao.com/item.htm?spm=a230r.1.14.24.519422eoV6OMx&id=553315162553&ns=1&abbucket=16#detail" target="_blank">锐龙 1700 + 华硕B350F Gaming</a></td>
+			<td>淘宝</td>
+			<td><input type="text" class="values" name="" value="2589"></td>
+			<td class="right"><input type="text" value="1" class="sm-input"></td>
+		</tr>
+		<tr>
+			<td>固态硬盘</td>
+			<td><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.9.2b79de4dMOkLUP&id=529034148725&cm_id=140105335569ed55e27b&abbucket=15&skuId=3327580293978">PLEXTOR/浦科特 PX-256M7VC</a></td>
+			<td>淘宝</td>
+			<td><input type="text" class="values" name="" value="669"></td>
+			<td class="right"><input type="text" value="1" class="sm-input"></td>
+		</tr>
+		<tr>
+			<td>内存条</td>
+			<td><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.9.20430ac0HsBs85&id=546242276071&cm_id=140105335569ed55e27b&abbucket=15">AData/威刚 游戏威龙万紫千红DDR4 8G 2400</a></td>
+			<td>淘宝</td>
+			<td><input type="text" class="values" name="" value="569"></td>
+			<td class="right"><input type="text" value="1" class="sm-input"></td>
+		</tr>
+		<tr>
+			<td>机械硬盘</td>
+			<td><a href="https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.265da863HtlSyB&id=523307965803" target="_blank">WD/西部数据 2T</a></td>
+			<td>淘宝</td>
+			<td><input type="text" class="values" name="" value="379"></td>
+			<td class="right"><input type="text" value="1" class="sm-input"></td>
+		</tr>
+<!-- 		<tr>
+			<td>机械键盘</td>
+			<td><a href="http://item.jd.com/2354610.html" target="_blank">魔力鸭（ducky）2108混光茶轴</a></td>
+			<td>京东</td>
+			<td><input type="text" class="values" name="" value="639"></td>
+			<td class="right"><input type="text" value="1" class="sm-input"></td>
+		</tr> -->
+		<tr>
+			<td>风扇</td>
+			<td><a href="https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.2.6fde1c67imnpZu&id=14756775238&skuId=74016659182&areaId=320200&standard=1&user_id=695270974&cat_id=2&is_b=1&rn=f420ce4ccb5fab36c362ac7e0c568369" target="_blank">玄冰400</a></td>
+			<td>淘宝</td>
+			<td><input type="text" class="values" name="" value="100"></td>
+			<td class="right"><input type="text" value="1" class="sm-input"></td>
+		</tr>
+		<!-- <tr>
+			<td>主板</td>
+			<td><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.51.4411f23f6HTaq6&id=553181267004&ns=1&abbucket=15" target="_blank">Asus/华硕 STRIX B350F GAMING</a></td>
+			<td>淘宝</td>
+			<td><input type="text" class="values" name="" value="999"></td>
+			<td class="right"><input type="text" value="1" class="sm-input"></td>
+		</tr> -->
+<!-- 		<tr>
+			<td>音箱</td>
+			<td><a href="http://item.jd.com/974882.html">漫步者（EDIFIER） R26T 2.0</a></td>
+			<td>京东</td>
+			<td><input type="text" class="values" name="" value="199"></td>
+			<td class="right"><input type="text" value="1" class="sm-input"></td>
+		</tr> -->
+		<tr >
+			<td >机箱</td>
+			<td ><a href="https://detail.tmall.com/item.htm?spm=a220o.1000855.0.da321h.72050836bCPGU6&id=541799112869&skuId=3444924267649" target="_blank">航嘉MVP 2 全侧透台式电脑机箱</a></td>
+			<td >淘宝</td>
+			<td ><input type="text" class="values" name="" value="239"></td>
+			<td class="right"><input type="text" value="1" class="sm-input"></td>
+		</tr>
+		<tr>
+			<td class="bottom " >总价</td>
+			<td class="buttom text-right" style="border-bottom: none;" colspan="3"><input id="sum" type="" name=""  value="" disabled="disabled"></td>
+			<td class="bottom" style="border-right: none;"><button id="click">点击</button></td>
+		</tr>
+	</table>
+
+	<script type="text/javascript">
+		document.getElementById('click').addEventListener('click',function() {
+			var allPrice = 0;
+			var v = document.getElementsByClassName('values');
+			var num = document.getElementsByClassName('sm-input');
+			for(var i=0; i<v.length; i++) {
+				// console.log(v[i].value)
+				console.log(num[i].value)		
+				allPrice += ((v[i].value - 0) * (num[i].value - 0));
+			}
+			// console.log(allPrice)
+			document.getElementById('sum').value = allPrice;
+		})
+
+	</script>
+</body>
+</html>
